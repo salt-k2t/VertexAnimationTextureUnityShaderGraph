@@ -1,6 +1,7 @@
 # VertexAnimationTextureUnityShaderGraph
 テクスチャにベイクした頂点アニメーションを実行するシェーダーサンプルです。  
-ShaderGraphで使用する事ができます。
+ShaderGraphで使用する事ができます。  
+**実装途中(WIP)です**
 
 ## Material設定
 - VertexAnimationTexture  
@@ -15,7 +16,7 @@ Mayaツールで設定したDetailを入力してください。
 - FilterNode : Point(no filter)
 - Format : RGBA 32 bit
 
-## 注意(WIP)
+## 注意
 
 頂点番号はUV2から取得しています。
 Tools→Open SetVertexIdToUV2にて格納処理を行ってください。
